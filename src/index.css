@@ -18,6 +18,6 @@ code {
 }
 
 html {
-background: rgb(73,147,196);
-background: linear-gradient(90deg, rgba(73,147,196,1) 19%, rgba(130,147,153,1) 100%, rgba(84,95,102,1) 100%);
+background:linear-gradient(to left bottom, #6491ea, #7d8cd3, #8988bd, #8d85a8, #8b8495);
+
 }
