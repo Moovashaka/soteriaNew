@@ -8,7 +8,7 @@ import mobileNavIcon from '../../images/mobileNavIcon.svg'
 
 const MyDesktopNavbar = styled.nav`
 background: ${ props => props.theme.primary };
-min-height: 30vh;
+min-height: 10vh;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -25,7 +25,7 @@ box-shadow: -10px 10px 5px ${ props => props.theme.accent };
 
   List-style:none;
 
-  width: 35vw;
+  width: 55vw;
 
   @media screen and (max-width: 768px) {
       display: none;
@@ -41,11 +41,11 @@ box-shadow: -10px 10px 5px ${ props => props.theme.accent };
   color: white;
   padding: 0 0.5rem;
   text-shadow:  2px 2px 2px black;
-  font-size: 2.5vh;
+  font-size: 2.85vh;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   border-radius: 10px;
-  opacity: 0.5;
+  opacity: 0.75;
 
   &:focus {
     background: rgba(0, 0, 0, 0.1);
@@ -64,7 +64,7 @@ box-shadow: -10px 10px 5px ${ props => props.theme.accent };
 `
 
 const Logo = styled.img `
-   height: 25vmin;
+   height: 10vmin;
    float: left;
    margin: 5vmin;
 `
